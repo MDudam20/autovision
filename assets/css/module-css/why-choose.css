@@ -66,15 +66,15 @@
     z-index: -1;
 }
 
-.why-choose-one__icon span {
+.why-choose-one__icon i {
     position: relative;
     display: inline-block;
-    font-size: 45px;
+    font-size: 35px;
     color: var(--gorent-black);
     transition: all 500ms ease;
 }
 
-.why-choose-one__single:hover .why-choose-one__icon span {
+.why-choose-one__single:hover .why-choose-one__icon i {
     -webkit-animation-name: wobble-horizontal-hover;
     animation-name: wobble-horizontal-hover;
     -webkit-animation-duration: 1s;
