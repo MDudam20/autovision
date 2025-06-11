@@ -94,85 +94,7 @@
 
 
     <!-- Start sidebar widget content -->
-    <div class="xs-sidebar-group info-group info-sidebar">
-        <div class="xs-overlay xs-bg-black"></div>
-        <div class="xs-sidebar-widget">
-            <div class="sidebar-widget-container">
-                <div class="widget-heading">
-                    <a href="#" class="close-side-widget">X</a>
-                </div>
-                <div class="sidebar-textwidget">
-                    <div class="sidebar-info-contents">
-                        <div class="content-inner">
-                            <div class="logo">
-                                <a href="index.html"><img src="assets/images/resources/logo-2.png" alt="" /></a>
-                            </div>
-                            <div class="content-box">
-                                <h4>About Us</h4>
-                                <div class="inner-text">
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                                        roots in a piece of classical Latin literature from 45 BC, making it over
-                                        2000 years old.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="form-inner">
-                                <h4>Get a free quote</h4>
-                                <form action="" method="post">
-                                    <div class="form-group">
-                                        <input type="text" name="name" placeholder="Name" required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email" placeholder="Email" required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea name="message" placeholder="Message..."></textarea>
-                                    </div>
-                                    <div class="form-group message-btn">
-                                        <button type="submit" class="thm-btn form-inner__btn">Submit Now</button>
-                                    </div>
-                                </form>
-                            </div>
-
-                            <div class="sidebar-contact-info">
-                                <h4>Contact Info</h4>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <span class="icon-pin"></span> 88 broklyn street, New York
-                                    </li>
-                                    <li>
-                                        <span class="icon-call"></span>
-                                        <a href="tel:123456789">+1 555-9990-153</a>
-                                    </li>
-                                    <li>
-                                        <span class="icon-envelope"></span>
-                                        <a href="mailto:info@example.com">info@example.com</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="thm-social-link1">
-                                <ul class="social-box list-unstyled">
-                                    <li>
-                                        <a href="#"><i class="icon-facebook" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="icon-twitter" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="icon-linkedin" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="icon-dribble-big-logo" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+     <?php include("layout/side-meu.php") ?>
     <!-- End sidebar widget content -->
 
 
@@ -184,57 +106,13 @@
 
     <div class="page-wrapper">
         <header class="main-header-two">
-            <div class="main-menu-two__top">
-                <div class="main-menu-two__top-inner">
-                    <ul class="list-unstyled main-menu-two__contact-list">
-                        <li>
-                            <div class="icon">
-                                <i class="icon-call-2"></i>
-                            </div>
-                            <div class="text">
-                                <p><a href="tel:9288006780">+92 ( 8800 ) - 6780</a>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="icon-envelope-2"></i>
-                            </div>
-                            <div class="text">
-                                <p><a href="mailto:support@gmail.com">support@gmail.com</a>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="icon-pin-2"></i>
-                            </div>
-                            <div class="text">
-                                <p>55 Main Street, 2nd block, Malborne ,Australia</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="main-menu-two__top-right">
-                        <!-- <div class="main-menu-two__top-login-reg-box">
-                            <a href="login.html">Login</a>
-                            <p>or</p>
-                            <a href="sign-up.html">Register</a>
-                        </div> -->
-                        <div class="main-menu-two__social">
-                            <a href="#"><i class="icon-facebook"></i></a>
-                            <a href="#"><i class="icon-twitter"></i></a>
-                            <a href="#"><i class="icon-instagram"></i></a>
-                            <a href="#"><i class="icon-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include("layout/top-header.php") ?>
             <nav class="main-menu main-menu-two">
                 <div class="main-menu-two__wrapper">
                     <div class="main-menu-two__wrapper-inner">
                         <div class="main-menu-two__left">
                             <div class="main-menu-two__logo">
-                                <a href="index.html"><img src="assets/images/resources/logo-2.png" alt=""></a>
+                                <a href="/"><img src="assets/images/resources/logo-2.png" alt=""></a>
                             </div>
                         </div>
                         <div class="main-menu-two__middle-box">
@@ -243,23 +121,23 @@
                                 <ul class="main-menu__list">
 
                                     <li>
-                                        <a href="about.html">Home</a>
+                                        <a href="/">Home</a>
                                     </li>
                                     <li>
-                                        <a href="about.html">About Us</a>
+                                        <a href="about-us">About Us</a>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#">Brand</a>
                                         <ul class="shadow-box">
-                                            <li><a href="oem-brands.html">OEM Brands</a></li>
-                                            <li><a href="aftermarket-brands.html">After Marketing Brands</a></li>
+                                            <li><a href="oem-brands">OEM Brands</a></li>
+                                            <li><a href="aftermarket-brands">After Marketing Brands</a></li>
 
                                         </ul>
                                     </li>
 
 
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <a href="contact-us">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -326,7 +204,7 @@
                             <p class="main-slider-two__text">Delivering satisfaction through trusted spare parts since
                                 2010.</p>
                             <div class="main-slider-two__btn-box">
-                                <a href="contact.html">
+                                <a href="contact-us">
                                     <div class="main-slider-two__btn-icon">
                                         <i class="fa-solid fa-phone-volume"></i>
                                     </div>
@@ -358,7 +236,7 @@
                             <p class="main-slider-two__text">Ensuring reliability with high-quality OEM and aftermarket
                                 spares.</p>
                             <div class="main-slider-two__btn-box">
-                                <a href="contact.html">
+                                <a href="contact-us">
                                     <div class="main-slider-two__btn-icon">
                                         <i class="fa-solid fa-phone-volume"></i>
                                     </div>
@@ -389,7 +267,7 @@
                             <p class="main-slider-two__text">Combining excellence and value for your automotive needs.
                             </p>
                             <div class="main-slider-two__btn-box">
-                                <a href="contact.html">
+                                <a href="contact-us">
                                     <div class="main-slider-two__btn-icon">
                                         <i class="fa-solid fa-phone-volume"></i>
                                     </div>
@@ -500,7 +378,7 @@
                                 </ul>
                                 <!-- <div class="about-three__btn-box-and-call-box">
                                     <div class="about-three__btn-box">
-                                        <a href="about.html" class="about-three__btn thm-btn">Read More<span
+                                        <a href="about-us" class="about-three__btn thm-btn">Read More<span
                                                 class="fas fa-arrow-right"></span></a>
                                     </div>
                                     <div class="about-three__call-box">
@@ -586,32 +464,13 @@
                                 </p>
                             </div>
                             <div class="why-choose-one__btn-box">
-                                <a href="contact.html" class="thm-btn">Contact Us<span
+                                <a href="contact-us" class="thm-btn">Contact Us<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
                     </div>
                     <!-- Why Choose One Single End -->
-                    <!-- Why Choose One Single Start -->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms"
-                        data-wow-duration="1500ms">
-                        <div class="why-choose-one__single">
-                            <div class="why-choose-one__icon">
-                                <i class="fa-solid fa-tags me-1" aria-hidden="true"></i>
-                            </div>
-                            <div class="why-choose-one__single-inner">
-                                <h3 class="why-choose-one__title">Highly Discounted Rates</h3>
-                                <p class="why-choose-one__text">Offering competitive pricing on premium spare parts,
-                                    ensuring you get the best value without sacrificing quality or reliability.
-                                </p>
-                            </div>
-                            <div class="why-choose-one__btn-box">
-                                <a href="contact.html" class="thm-btn">Conatct US<span
-                                        class="fas fa-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Why Choose One Single End -->
+                    
                     <!-- Why Choose One Single Start -->
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="500ms"
                         data-wow-duration="1500ms">
@@ -626,7 +485,7 @@
                                 </p>
                             </div>
                             <div class="why-choose-one__btn-box">
-                                <a href="contact.html" class="thm-btn">Contact Us<span
+                                <a href="contact-us" class="thm-btn">Contact Us<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -645,7 +504,7 @@
                                 </p>
                             </div>
                             <div class="why-choose-one__btn-box">
-                                <a href="contact.html" class="thm-btn">Contact US<span
+                                <a href="contact-us" class="thm-btn">Contact US<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -684,6 +543,26 @@
                             </div>
                             <div class="why-choose-one__btn-box">
                                 <a href="listing-single.html" class="thm-btn">Rent Now<span
+                                        class="fas fa-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Why Choose One Single End -->
+                     <!-- Why Choose One Single Start -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms"
+                        data-wow-duration="1500ms">
+                        <div class="why-choose-one__single">
+                            <div class="why-choose-one__icon">
+                                <i class="fa-solid fa-tags me-1" aria-hidden="true"></i>
+                            </div>
+                            <div class="why-choose-one__single-inner">
+                                <h3 class="why-choose-one__title">Competitive Prices</h3>
+                                <p class="why-choose-one__text">Offering competitive pricing on premium spare parts,
+                                    ensuring you get the best value without sacrificing quality or reliability.
+                                </p>
+                            </div>
+                            <div class="why-choose-one__btn-box">
+                                <a href="contact-us" class="thm-btn">Conatct US<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -886,82 +765,119 @@
                 </div>
                 <div class="row">
                     <!-- Team Three Single Start -->
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-2 wow fadeInUp" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
                         <div class="team-three__single">
                             <div class="team-three__img-box">
                                 <div class="team-three__img">
                                     <img src="assets/images/autovision-brands/skoda.png" alt="">
                                     <div class="team-three__social">
-                                        <a href="oem-contactus.html"><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="oem-contact-us"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="team-three__content">
-                                <h3 class="team-three__name"><a href="oem-contactus.html">Skoda</a></h3>
+                                <h3 class="team-three__name"><a href="oem-contact-us">Skoda</a></h3>
                             </div>
                         </div>
                     </div>
                     <!-- Team Three Single End -->
                     <!-- Team Three Single Start -->
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms"
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-2 wow fadeInUp" data-wow-delay="100ms"
                         data-wow-duration="1500ms">
                         <div class="team-three__single">
                             <div class="team-three__img-box">
                                 <div class="team-three__img">
                                     <img src="assets/images/autovision-brands/suzuki.png" alt="">
                                     <div class="team-three__social">
-                                        <a href="oem-contactus.html"><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="oem-contact-us"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="team-three__content">
-                                <h3 class="team-three__name"><a href="oem-contactus.html">Suzuki</a></h3>
-
+                                <h3 class="team-three__name"><a href="oem-contact-us">Suzuki</a></h3>
+                                
                             </div>
                         </div>
                     </div>
                     <!-- Team Three Single End -->
-
+                    
                     <!-- Team Three Single Start -->
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms"
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-2 wow fadeInUp" data-wow-delay="300ms"
                         data-wow-duration="1500ms">
                         <div class="team-three__single">
                             <div class="team-three__img-box">
                                 <div class="team-three__img">
                                     <img src="assets/images/autovision-brands/mahindra.webp" alt="">
                                     <div class="team-three__social">
-                                        <a href="oem-contactus.html"><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="oem-contact-us"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="team-three__content">
-                                <h3 class="team-three__name"><a href="oem-contactus.html">Mahindra</a></h3>
+                                <h3 class="team-three__name"><a href="oem-contact-us">Mahindra</a></h3>
                             </div>
                         </div>
                     </div>
                     <!-- Team Three Single End -->
                     <!-- Team Three Single Start -->
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-2 wow fadeInUp" data-wow-delay="400ms"
                         data-wow-duration="1500ms">
                         <div class="team-three__single">
                             <div class="team-three__img-box">
                                 <div class="team-three__img">
                                     <img src="assets/images/autovision-brands/tata.png" alt="">
                                     <div class="team-three__social">
-                                        <a href="oem-contactus.html"><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="oem-contact-us"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="team-three__content">
-                                <h3 class="team-three__name"><a href="oem-contactus.html">TATA</a></h3>
+                                <h3 class="team-three__name"><a href="oem-contact-us">TATA</a></h3>
                             </div>
                         </div>
                     </div>
                     <!-- Team Three Single End -->
 
+                    <!-- Team Three Single Start -->
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-2 wow fadeInUp" data-wow-delay="500ms"
+                        data-wow-duration="1500ms">
+                        <div class="team-three__single">
+                            <div class="team-three__img-box">
+                                <div class="team-three__img">
+                                    <img src="assets/images/autovision-brands/kia.png" alt="">
+                                    <div class="team-three__social">
+                                        <a href="oem-contact-us"><i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-three__content">
+                                <h3 class="team-three__name"><a href="oem-contact-us">Kia</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team Three Single End -->
+                     <!-- Team Three Single Start -->
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-2 wow fadeInUp" data-wow-delay="600ms"
+                        data-wow-duration="1500ms">
+                        <div class="team-three__single">
+                            <div class="team-three__img-box">
+                                <div class="team-three__img">
+                                    <img src="assets/images/autovision-brands/hyundai.jpg" alt="">
+                                    <div class="team-three__social">
+                                        <a href="oem-contact-us"><i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-three__content">
+                                <h3 class="team-three__name"><a href="oem-contact-us">Hyundai</a></h3>
+                     </div>
+                        </div>
+                    </div>
+                    <!-- Team Three Single End -->
+
                     <div class="more-btn d-flex justify-content-center">
-                        <button type="submit" class="thm-btn"><a href="oem-brands.html" class="brand-link">More Brand
+                        <button type="submit" class="thm-btn"><a href="oem-brands" class="brand-link">More Brand
                                 <span class=""><i class="fa-solid fa-arrow-right"></i></span></a></button>
                     </div>
                 </div>
@@ -984,83 +900,119 @@
                 </div>
                 <div class="row">
                     <!-- Team Three Single Start -->
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
+                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-2 wow fadeInUp" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
                         <div class="team-three__single">
                             <div class="team-three__img-box">
                                 <div class="team-three__img">
                                     <img src="assets/images/aftermarketing/Schaeffler.png" alt="">
                                     <div class="team-three__social">
-                                        <a href="aftermarket-contactus.html"><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="aftermarket-contact-us"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="team-three__content">
-                                <h3 class="team-three__name"><a href="aftermarket-contactus.html">Schaeffler</a></h3>
+                                <h3 class="team-three__name"><a href="aftermarket-contact-us">Schaeffler</a></h3>
                             </div>
                         </div>
                     </div>
                     <!-- Team Three Single End -->
                     <!-- Team Three Single Start -->
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms"
+                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-2 wow fadeInUp" data-wow-delay="100ms"
                         data-wow-duration="1500ms">
                         <div class="team-three__single">
                             <div class="team-three__img-box">
                                 <div class="team-three__img">
                                     <img src="assets/images/aftermarketing/Technix.jpg" alt="">
                                     <div class="team-three__social">
-                                        <a href="aftermarket-contactus.html"><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="aftermarket-contact-us"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="team-three__content">
-                                <h3 class="team-three__name"><a href="aftermarket-contactus.html">Technix</a></h3>
-
+                                <h3 class="team-three__name"><a href="aftermarket-contact-us">Technix</a></h3>
+                                
                             </div>
                         </div>
                     </div>
                     <!-- Team Three Single End -->
-
+                    
                     <!-- Team Three Single Start -->
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms"
+                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-2 wow fadeInUp" data-wow-delay="300ms"
                         data-wow-duration="1500ms">
                         <div class="team-three__single">
                             <div class="team-three__img-box">
                                 <div class="team-three__img">
                                     <img src="assets/images/aftermarketing/Clutch.jpg" alt="">
                                     <div class="team-three__social">
-                                        <a href="aftermarket-contactus.html"><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="aftermarket-contact-us"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="team-three__content">
-                                <h3 class="team-three__name"><a href="aftermarket-contactus.html"> New Era Clutch
-                                        Cables</a></h3>
+                                <h3 class="team-three__name"><a href="aftermarket-contact-us">	New Era Clutch Cables</a></h3>
                             </div>
                         </div>
                     </div>
                     <!-- Team Three Single End -->
                     <!-- Team Three Single Start -->
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
+                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-2 wow fadeInUp" data-wow-delay="400ms"
                         data-wow-duration="1500ms">
                         <div class="team-three__single">
                             <div class="team-three__img-box">
                                 <div class="team-three__img">
                                     <img src="assets/images/aftermarketing/Superlift.png" alt="">
                                     <div class="team-three__social">
-                                        <a href="aftermarket-contactus.html"><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="aftermarket-contact-us"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="team-three__content">
-                                <h3 class="team-three__name"><a href="aftermarket-contactus.html">Superlift</a></h3>
+                                <h3 class="team-three__name"><a href="aftermarket-contact-us">Superlift</a></h3>
                             </div>
                         </div>
                     </div>
                     <!-- Team Three Single End -->
 
+                    <!-- Team Three Single Start -->
+                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-2 wow fadeInUp" data-wow-delay="500ms"
+                        data-wow-duration="1500ms">
+                        <div class="team-three__single">
+                            <div class="team-three__img-box">
+                                <div class="team-three__img">
+                                    <img src="assets/images/aftermarketing/mann-filter.png" alt="">
+                                    <div class="team-three__social">
+                                        <a href="aftermarket-contact-us"><i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-three__content">
+                                <h3 class="team-three__name"><a href="aftermarket-contact-us">Mann Filter</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team Three Single End -->
+                      <!-- Team Three Single Start -->
+                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-2 wow fadeInUp" data-wow-delay="600ms"
+                        data-wow-duration="1500ms">
+                        <div class="team-three__single">
+                            <div class="team-three__img-box">
+                                <div class="team-three__img">
+                                    <img src="assets/images/aftermarketing/zip.png" alt="">
+                                    <div class="team-three__social">
+                                        <a href="aftermarket-contact-us"><i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-three__content">
+                                <h3 class="team-three__name"><a href="aftermarket-contact-us">Zip Filters</a></h3>
+                     </div>
+                        </div>
+                    </div>
+                    <!-- Team Three Single End -->
+
                     <div class="more-btn d-flex justify-content-center">
-                        <button type="submit" class="thm-btn"><a href="aftermarket-brands.html" class="brand-link">More
+                        <button type="submit" class="thm-btn"><a href="aftermarket-brands" class="brand-link">More
                                 Brand
                                 <span class=""><i class="fa-solid fa-arrow-right"></i></span></a></button>
                     </div>
@@ -1184,7 +1136,7 @@
                     </div>
                     <div class="lets-talk__btn-boxes">
                         <div class="lets-talk__btn-1">
-                            <a href="contact.html" class="thm-btn">Contact Us<span
+                            <a href="contact-us" class="thm-btn">Contact Us<span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                         <!-- <div class="lets-talk__btn-2">
@@ -1197,200 +1149,4 @@
         </section>
         <!--Lets Talk End -->
 
-        <!--Site Footer Start-->
-        <footer class="site-footer">
-            <div class="site-footer__bg" style="background-image: url(assets/images/backgrounds/site-footer-bg.jpg);">
-            </div>
-            <div class="site-footer__top">
-                <div class="container">
-                    <div class="site-footer__top-inner">
-                        <div class="row">
-                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                                <div class="footer-widget__about">
-                                    <div class="footer-widget__about-logo">
-                                        <a href="index.html"><img src="assets/images/resources/footer-logo.png"
-                                                alt=""></a>
-                                    </div>
-                                    <p class="footer-widget__about-text">Car Is Where Early Adopters And Innovation
-                                        Seekers Find Lively
-                                        Imaginative Tech.</p>
-                                    <form class="footer-widget__form">
-                                        <div class="footer-widget__input">
-                                            <input type="email" placeholder="Your Email">
-                                        </div>
-                                        <button type="submit" class="footer-widget__btn"><i
-                                                class="icon-right-arrow"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                                <div class="footer-widget__links">
-                                    <h4 class="footer-widget__title">Quick links</h4>
-                                    <ul class="footer-widget__links-list list-unstyled">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="oem-brands.html">OEM Brands</a></li>
-                                        <li><a href="aftermarket-brands.html">After Marketing Brands</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                           
-                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                                <div class="footer-widget__contact">
-                                    <h3 class="footer-widget__title">Contact Us</h3>
-                                    <ul class="footer-widget__contact-list list-unstyled">
-                                        <li>
-                                            <div class="icon">
-                                                <span class="icon-pin"></span>
-                                            </div>
-                                            <p>4140 Parker Rd. Allentown, New
-                                                <br> Mexico 31134
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <span class="icon-call"></span>
-                                            </div>
-                                            <p><a href="tel:2195550114">(219) 555-0114</a></p>
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <span class="icon-envelope"></span>
-                                            </div>
-                                            <p><a href="mailto:xyz@gmail.com">xyz@gmail.com</a></p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="site-footer__bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="site-footer__bottom-inner">
-                                <div class="site-footer__copyright">
-                                    <p class="site-footer__copyright-text">© 2025 Autovison By <a
-                                            href="https://themeforest.net/user/dreamlayout">Sparkmindscoder.</a> All
-                                        Rights
-                                        Reserved.</p>
-                                </div>
-                                <div class="site-footer__bottom-menu-box">
-                                    <ul class="list-unstyled site-footer__bottom-menu">
-                                        <li><a href="about.html">Terms of Service</a></li>
-                                        <li><a href="about.html">Privacy policy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--Site Footer End-->
-
-
-
-
-    </div><!-- /.page-wrapper -->
-
-
-    <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
-        <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
-
-            <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-2.png" width="140"
-                        alt="" /></a>
-            </div>
-            <!-- /.logo-box -->
-            <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-
-            <ul class="mobile-nav__contact list-unstyled">
-                <li>
-                    <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@xyz.com</a>
-                </li>
-                <li>
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
-                </li>
-            </ul><!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__top">
-                <div class="mobile-nav__social">
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div><!-- /.mobile-nav__social -->
-            </div><!-- /.mobile-nav__top -->
-
-
-
-        </div>
-        <!-- /.mobile-nav__content -->
-    </div>
-    <!-- /.mobile-nav__wrapper -->
-
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
-        <div class="search-popup__content">
-            <form action="#">
-                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="thm-btn">
-                    <i class="fas fa-search"></i>
-                </button>
-            </form>
-        </div>
-        <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
-
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
-        <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
-        <span class="scroll-to-top__text"> Go Back Top</span>
-    </a>
-
-
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jarallax.min.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/jquery.appear.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/jquery.circle-progress.min.js"></script>
-    <script src="assets/js/knob.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.validate.min.js"></script>
-    <script src="assets/js/wNumb.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/jquery-sidebar-content.js"></script>
-    <script src="assets/js/gsap/gsap.js"></script>
-    <script src="assets/js/gsap/ScrollTrigger.js"></script>
-    <script src="assets/js/gsap/SplitText.js"></script>
-    <script src="assets/js/marquee.min.js"></script>
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/timePicker.js"></script>
-    <script src="assets/js/typed-2.0.11.js"></script>
-    <script src="assets/js/aos.js"></script>
-
-
-
-
-    <!-- template js -->
-    <script src="assets/js/script.js"></script>
-</body>
-
-
-</html>
+ <?php include("layout/footer.php") ?>

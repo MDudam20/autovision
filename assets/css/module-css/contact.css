@@ -178,6 +178,7 @@
     text-align: center;
     padding: 40px 40px 41px;
     margin-bottom: 30px;
+    height: 300px;
 }
 
 .contact-info__icon {
@@ -232,20 +233,23 @@
 .contact-info__single p {
     margin-top: 20px;
     margin-bottom: 5px;
+    font-size: 20px;   
+     font-weight: 700;
+     color: var(--gorent-base);
 }
 
-.contact-info__single h3 {
-    font-size: 22px;
-    font-weight: 700;
+.contact-info__single h6 {
+    font-size: 18px;
+    font-weight: 500;
     line-height: 32px;
     color: var(--gorent-black);
 }
 
-.contact-info__single h3 a {
+.contact-info__single h6 a {
     color: var(--gorent-black);
 }
 
-.contact-info__single h3 a:hover {
+.contact-info__single h6 a:hover {
     color: var(--gorent-base)
 }
 

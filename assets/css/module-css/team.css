@@ -602,7 +602,7 @@
 .team-three__single {
     position: relative;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -656,7 +656,7 @@
     bottom: 0px;
     width: 100%;
     height: 1%;
-    border: 3px solid var(--gorent-base);
+    border: 1px solid var(--gorent-base);
     border-top-left-radius: var(--gorent-bdrradius);
     border-top-right-radius: var(--gorent-bdr-radius);
     background-color: transparent;
@@ -678,8 +678,9 @@
     border-top-left-radius: var(--gorent-bdr-radius);
     border-top-right-radius: var(--gorent-bdr-radius);
     transition: all 500ms ease;
-    height: 200px;
-    padding: 35px;
+    /* height: 200px; */
+    aspect-ratio: 1/1;
+    padding: 25px;
 }
 
 .team-three__single:hover .team-three__img img {
@@ -765,9 +766,9 @@
     background-color: var(--gorent-white);
     text-align: center;
     box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
-    padding: 33px 20px 33px;
+    padding: 10px 20px 10px;
     border-radius: var(--gorent-bdr-radius);
-    border: 5px solid var(--gorent-base);
+    border: 1px solid var(--gorent-base);
     border-top: 0;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
@@ -784,9 +785,9 @@
 }
 
 .team-three__name {
-    font-size: 22px;
-    line-height: 30px;
-    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
     margin-bottom: 2px;
 }
 
@@ -801,6 +802,12 @@
 .team-three__sub-title {
     font-size: 18px;
     font-weight: 500;
+}
+@media (max-width: 576px) {
+    .team-three .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
 
 /*--------------------------------------------------------------
