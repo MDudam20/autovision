@@ -9,7 +9,7 @@
                     <div class="sidebar-info-contents">
                         <div class="content-inner">
                             <div class="logo">
-                                <a href="/"><img src="assets/images/resources/logo-2.png" alt="" /></a>
+                                <a href="/"><img src="assets/images/autovision-about/Autovision (3).png" alt="" /></a>
                             </div>
                             <div class="content-box">
                                 <h4>About Us</h4>

@@ -715,6 +715,8 @@
 
 .about-three__text-1 {
     margin-bottom: 29px;
+    color: #000;
+    text-align: justify;
 }
 
 .about-three__points-box {
@@ -791,6 +793,8 @@
     position: relative;
     display: block;
     flex: 1;
+    color: #000;
+    text-align: justify;
 }
 
 .about-three__points li .content h3 {

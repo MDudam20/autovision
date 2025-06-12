@@ -22,8 +22,9 @@
   --gorent-font-two: "Inter Tight", sans-serif;
   --gorent-gray: #868689;
   --gorent-gray-rgb: 134, 134, 137;
-  --gorent-base: #FFB51D;
-  --gorent-base-rgb: 255, 181, 29;
+  /* --gorent-base: #FFB51D; */
+  --gorent-base: #bc1823;
+  --gorent-base-rgb: 188, 24, 35;
   --gorent-black: #131222;
   --gorent-black-rgb: 19, 18, 34;
   --gorent-extra: #E3E3E3;
@@ -2246,6 +2247,9 @@ xs sidebar
 .main-menu-two__logo {
   display: block;
   padding: 20px 0;
+}
+.main-menu-two__logo img{
+  width: 200px;
 }
 
 .main-menu-two__middle-box {

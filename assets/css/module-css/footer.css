@@ -42,7 +42,9 @@
     position: relative;
     display: inline-block;
 }
-
+.footer-widget__about-logo  img{
+    width: 250px;
+}
 .footer-widget__about-text {
     margin: 0;
     color: rgba(var(--gorent-white-rgb), .70);

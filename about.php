@@ -109,7 +109,7 @@
                     <div class="main-menu-two__wrapper-inner">
                         <div class="main-menu-two__left">
                             <div class="main-menu-two__logo">
-                                <a href="/"><img src="assets/images/resources/logo-2.png" alt=""></a>
+                                <a href="/"><img src="assets/images/autovision-about/Autovision (2).png" alt=""></a>
                             </div>
                         </div>
 
@@ -172,7 +172,7 @@
             <div class="page-header__bg" style="background-image: url(assets/images/autovision-about/vergleichstest-bmw3-skoda-2103_pwxpey.webp);">
             </div>
             <div class="page-header__shape-1"
-                style="background-image: url(assets/images/shapes/page-header-shape-1.png);"></div>
+                style="background-image: url(assets/images/autovision-about/Untitled_design__4_-removebg-preview.png);"></div>
             <div class="container">
                 <div class="page-header__inner">
                     <h3>About Us</h3>

@@ -112,7 +112,7 @@
                     <div class="main-menu-two__wrapper-inner">
                         <div class="main-menu-two__left">
                             <div class="main-menu-two__logo">
-                                <a href="/"><img src="assets/images/resources/logo-2.png" alt=""></a>
+                                <a href="/"><img src="assets/images/autovision-about/Autovision (3).png" alt=""></a>
                             </div>
                         </div>
                         <div class="main-menu-two__middle-box">
@@ -1047,7 +1047,7 @@
                                 </div>
                                 <div class="faq-one__experience-box">
                                     <div class="faq-one__experience-year">
-                                        <h2 class="odometer" data-count="55">00</h2>
+                                        <h2 class="odometer" data-count="15">00</h2>
                                     </div>
                                     <p class="faq-one__experience-text">Year of <br> experience</p>
                                 </div>
